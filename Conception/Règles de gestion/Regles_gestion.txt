@@ -1,0 +1,85 @@
+Introduction :
+  Les règles suivantes doivent nous permettre de cadrer les fonctionnalités que
+nous souhaitons développer dans le cadre de notre site de co-voiturage.
+
+RG 1: Le site dispose d'un compte administrateur. L'administrateur peut
+consulter tous les comptes des membres du site ainsi que tous les trajets enregistrés.
+Il peut supprimer un compte utilisateur ou un trajet. Il peut ajouter des villes.
+Il peut suivre les signalements.
+
+RG 2: Les visiteurs (non inscrit) peuvent conusulter tous les trajets disponibles.
+Il ne peuvent pas consulter les descriptions des membres du site.
+
+RG 3: Tous les visiteurs peuvent s'inscrire au site. Il doivent renseigner
+obligatoirement les informations suivantes.
+  -Nom
+  -Prénom
+  -Pseudo
+  -Mot de passe (8 caractères mininum)
+  -numéro de téléphone
+  -adresse Mail (unique)
+  -Date de Naissance
+  -un avatar de profil
+
+  Les membres sont identifiés par un numéro unique attribué à la création du
+compte. Tous les membres sont majeurs.
+
+RG 4: Un membre peut créer un trajet et rentre les informations
+suivante :
+  -ville de départ de notre base de donnée
+  -ville d'arrivée de notre base de donnée
+  -une brève description
+  -*villes passages*
+  -un prix choisi par le conducteur
+  -un nombre de passagers maximum
+  -une date de départ
+  -une estimation du temps de parcours (en heures)
+
+  Un trajet est supprimé automatiquement un jour après la date de
+départ. Un trajet est identifié par un identifiant unique et possède
+un conducteur.
+
+RG 5: Un membre peut consulter tous les trajets existants et les descriptions
+des conducteurs. Une recherche est disponible selon les critères du trajet.
+
+RG 6: Un membre peut s'incrire à un trajet. Il est mis en attente jusqu'à la
+confirmation/refus du conducteur. La réponse est envoyée automatiquement via un
+message. Un message possède un expediteur, un destinataire et un texte.
+
+RG 7: Un membre peut consulter les trajets auxquels il participe soit en tant que
+passager, soit en tant que conducteur.
+
+RG 8: Un membre peut supprimer ses trajets. Un message est envoyé aux membres qui
+sont déjà inscrit(Attente ou valider) à ce trajet.
+
+RG 9: Un membre peut signaler un autre utilisateur. Un message est envoyé à
+l'administrateur pour traiter ce signalement. L'administrateur se garde le droit
+de supprimer le compte.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
