@@ -7,7 +7,7 @@ consulter tous les comptes des membres du site ainsi que tous les trajets enregi
 Il peut supprimer un compte utilisateur ou un trajet. Il peut ajouter des villes.
 Il peut suivre les signalements.
 
-RG 2: Les visiteurs (non inscrit) peuvent conusulter tous les trajets disponibles.
+RG 2: Les visiteurs (non inscrit) peuvent consulter tous les trajets disponibles.
 Il ne peuvent pas consulter les descriptions des membres du site.
 
 RG 3: Tous les visiteurs peuvent s'inscrire au site. Il doivent renseigner
@@ -37,7 +37,7 @@ suivante :
 
   Un trajet est supprimé automatiquement un jour après la date de
 départ. Un trajet est identifié par un identifiant unique et possède
-un conducteur.
+un conducteur. Il ne peut pas créer deux trajets qui se chevauchent sans le temps.
 
 RG 5: Un membre peut consulter tous les trajets existants et les descriptions
 des conducteurs. Une recherche est disponible selon les critères du trajet.
@@ -45,6 +45,7 @@ des conducteurs. Une recherche est disponible selon les critères du trajet.
 RG 6: Un membre peut s'incrire à un trajet. Il est mis en attente jusqu'à la
 confirmation/refus du conducteur. La réponse est envoyée automatiquement via un
 message. Un message possède un expediteur, un destinataire et un texte.
+Il ne peut pas s'incrire deux trajets qui se chevauchent sans le temps.
 
 RG 7: Un membre peut consulter les trajets auxquels il participe soit en tant que
 passager, soit en tant que conducteur.
