@@ -5,7 +5,7 @@ MEMBRE: identifiant, nom, prenom, pseudo, dateNaissance, numeroTel, motDePasse, 
 PROPOSE, 0N MEMBRE, 11 TRAJET:
 TRAJET: numeroTrajet,villeDépart, villeArrivee, Description, Prix, nombrePassagersMax, dateDepart,estimationDuree
 DEPART, 11 TRAJET, 0N VILLE:
-VILLE: nom
+VILLE: codePostal,nom
 
 RECOIT,0N MEMBRE, 11 MESSAGE
 :
