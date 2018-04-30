@@ -1,4 +1,3 @@
-CONSULTE, 0N MEMBRE ,0N TRAJET:
 
 MESSAGE: numeroMessage, text,signalement
 ECRIT,0N MEMBRE, 11 MESSAGE:
@@ -10,6 +9,6 @@ VILLE: nom
 
 RECOIT,0N MEMBRE, 11 MESSAGE
 :
-DEMANDE,0N MEMBRE, 07 TRAJET : statut (accepté/refusé/enAttente)
+DEMANDE,0N MEMBRE, 0N TRAJET : statut (accepté/refusé/enAttente)
 :
 ARRIVE, 11 TRAJET, 0N VILLE:
