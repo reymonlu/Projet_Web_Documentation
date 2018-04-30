@@ -1,0 +1,20 @@
+
+VOITURE:numeroImmatriculation, marque, modele, couleur
+:
+
+POSSEDE, 0N MEMBRE, 11 VOITURE
+:
+
+MESSAGE: numeroMessage, text,signalement
+ECRIT,0N MEMBRE, 11 MESSAGE:
+MEMBRE: identifiant, nom, prenom, pseudo, dateNaissance, numeroTel, motDePasse, adresseMail, avatar, signalement
+PROPOSE, 0N MEMBRE, 11 TRAJET:
+TRAJET: numeroTrajet,villeDépart, villeArrivee, Description, Prix, nombrePassagersMax, dateDepart,estimationDuree
+DEPART, 11 TRAJET, 0N VILLE:
+VILLE: codePostal,nom
+
+RECOIT,0N MEMBRE, 11 MESSAGE
+:
+DEMANDE,0N MEMBRE, 0N TRAJET : statut (accepté/refusé/enAttente)
+:
+ARRIVE, 11 TRAJET, 0N VILLE:
