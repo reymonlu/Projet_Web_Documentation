@@ -37,7 +37,7 @@ suivante :
 
   Un trajet est supprimé automatiquement un jour après la date de
 départ. Un trajet est identifié par un identifiant unique et possède
-un conducteur. 
+un conducteur. Il ne peut pas créer deux trajets qui se chevauchent dans le temps.
 
 RG 5: Un membre peut consulter tous les trajets existants et les descriptions
 des conducteurs. Une recherche est disponible selon les critères du trajet.
@@ -56,6 +56,16 @@ sont déjà inscrit(Attente ou valider) à ce trajet.
 RG 9: Un membre peut signaler un autre utilisateur. Un message est envoyé à
 l'administrateur pour traiter ce signalement. L'administrateur se garde le droit
 de supprimer le compte.
+
+
+
+
+
+
+
+
+
+
 
 
 
